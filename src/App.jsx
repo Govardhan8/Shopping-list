@@ -53,7 +53,7 @@ export default function App() {
 
   return (
     <Container>
-      <h1 className="mb-4">Add Items to Your List</h1>
+      <h1 className="m-4 text-center">Add Items to Your List</h1>
       <Row className="mb-3">
         <Col md="6" sm="6" xs="8">
           <Select

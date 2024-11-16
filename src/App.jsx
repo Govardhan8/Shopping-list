@@ -55,7 +55,7 @@ export default function App() {
     <Container>
       <h1 className="mb-4">Add Items to Your List</h1>
       <Row className="mb-3">
-        <Col sm="6">
+        <Col md="6" sm="6" xs="8">
           <Select
             options={options}
             value={
@@ -66,14 +66,14 @@ export default function App() {
             isClearable
           />
         </Col>
-        <Col sm="3">
+        <Col md="3" sm="3" xs="4">
           <Form.Control
             placeholder="Quantity"
             value={quantity}
             onChange={(e) => setQuantity(e.target.value)}
           />
         </Col>
-        <Col sm="3">
+        <Col className="mt-xs-2" md="3" sm="3" xs="12">
           <Button
             variant="primary"
             onClick={handleAddItem}

@@ -29,7 +29,7 @@
     },
     "install": {
       "name": "install dependencies",
-      "command": "pnpm install"
+      "command": "pnpm install --no-frozen-lockfile"
     }
   }
 }
